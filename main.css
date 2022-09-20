@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    width:100vw;
+    padding: 20% 5%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    background: url(images/bg-pattern-top-desktop.svg) left top no-repeat, url(images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
+    
+}
+
+main{
+    
+    width:1200px;
+    
+}
+
+.section1{
+    width: 40%;
+    float:left;
+    margin-bottom: 70px;
+    
+}
+
+.section2{
+    width:60%;
+    float: left;
+}
+
+.section3{
+    clear: both;
+    
+}
+
+.card{
+    width: 29%;
+    float: left;
+   
+    background-color: hsl(300, 43%, 22%);;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    word-spacing: 3px;
+   
+}
+.card1{
+    margin-right: 6%;
+}
+.card2{
+    margin-top: 40px;
+}
+
+.card3{
+    margin-top: 80px;
+    margin-left: 6%;
+}
+
+.heading{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.subheading{
+    color:  hsl(303, 10%, 53%);
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.sh{
+    padding: 12px;
+    margin: 10px;
+    background-color:  hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width:60%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+    float: right;
+}
+
+.rating{
+    margin-left:15px; 
+    
+}
+
+.sh1{
+    margin-right: 20%;
+}
+
+.sh2{
+    margin-right: 10%;;
+}
+
+.heading{
+    font-size: 3rem;
+}
+
+span.user{
+    color: hsl(333, 80%, 67%);
+    display: block;
+    margin-top: 10px;
+}
+
+img[alt="star"]{
+    margin: 0 5px;
+    
+}
+
+.ptop{
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.card img{
+    border-radius: 100%;
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    height: 40px;
+
+}
+
+ 
+@media only screen and (max-width:1074px) and (min-width:791px) {
+    .rating{
+        display: block;
+    }
+    
+    .card{
+        max-width: 30%;
+    }
+    
+    .sh{
+        width:55%;
+    }
+}
+    
+@media only screen and (max-width:790px) {
+        body{
+            
+            font-size: 24px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .mainsection,.section3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sh{
+        width: 160%;
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+     .rating{
+        display: block;
+         margin-top: 10px;
+         
+    }
+    
+    .sh1{
+    margin-right: 0;
+    }
+
+   .sh2{
+    margin-right: 0;
+       
+    }
+
+    
+    .card{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top:50px ;
+    
+    }
+    
+    .card1{
+    margin-right: 0;
+}
+
+    .card2{
+    margin-top: 15px;
+}
+
+.card3{
+    margin-top: 15px;
+    margin-left: 0;
+}
+     
+    .section1{
+        width: 100%;
+        text-align: center;
+    }    
+    
+    .card img{
+        height: 60px;
+    }
